@@ -10,4 +10,3 @@ const driversByRevenue = function(array) {
   return array.slice().sort( function(a, b) { return a.revenue - b.revenue; });
 }
 
-const
