@@ -11,5 +11,5 @@ const driversByRevenue = function(array) {
 }
 
 const driversByName = function(array) {
-  return array.slice().sort( function(a, b) { return a.localeCompare(b); });
+  return array.slice().sort( function(a, b) { return a.name.localeCompare(b); });
 }
